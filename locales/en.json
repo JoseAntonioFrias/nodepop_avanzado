@@ -1,0 +1,11 @@
+{
+	"Welcome to": "Welcome to",
+	"List of products": "List of products",
+	"photograph": "photograph",
+	"Name": "Name",
+	"Sale": "Sale",
+	"Price": "Price",
+	"Photograph": "Photograph",
+	"Listing numAds": "Listing {{ numAds }} ads:",
+	"Invalid credentials": "Invalid credentials"
+}

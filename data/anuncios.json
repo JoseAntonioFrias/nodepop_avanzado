@@ -1,0 +1,137 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Bicicleta Fuji",
+      "venta": true,
+      "precio": 230.15,
+      "foto": "bicicleta.jpg",
+      "tags": [
+        "lifestyle",
+        "motor"
+      ]
+    },
+    {
+      "nombre": "iPhone 6",
+      "venta": false,
+      "precio": 534.00,
+      "foto": "Apple_iPhone_6_B.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "nombre": "iPhone 7",
+      "venta": true,
+      "precio": 265.00,
+      "foto": "Apple_iPhone_7_B.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "nombre": "High Lexus RC f 2014",
+      "venta": true,
+      "precio": 2500.00,
+      "foto": "high_lexus_rc_f_2014_r14.jpg",
+      "tags": [
+        "motor",
+        "lifestyle"
+      ]
+    },
+    {
+      "nombre": "iPhone SE Plata",
+      "venta": true,
+      "precio": 125.00,
+      "foto": "iPhone_SE_Plata.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "nombre": "Renault Kangoo Express",
+      "venta": true,
+      "precio": 1900.00,
+      "foto": "Renault_Kangoo_Express.jpg",
+      "tags": [
+        "work",
+        "motor"
+      ]
+    },
+    
+    {
+      "nombre": "Moto Suzuki 1200cc",
+      "venta": true,
+      "precio": 1350.00,
+      "foto": "motosuzuki.jpg",
+      "tags": [
+        "motor",
+        "lifestyle"
+      ]
+    },
+    {
+      "nombre": "Samsung Galaxy Halo",
+      "venta": true,
+      "precio": 245.00,
+      "foto": "Samsung_Galaxy_Halo_B.jpg",
+      "tags": [
+        "mobile",
+        "lifestyle"
+      ]
+    },
+    {
+      "nombre": "Samsung Galaxy J7 Silver",
+      "venta": true,
+      "precio": 250.00,
+      "foto": "Samsung_Galaxy_J7_Silver_B.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "nombre": "Samsung Galaxy j320f 001 front gold",
+      "venta": false,
+      "precio": 355.00,
+      "foto": "Samsung_Galaxy_j320f_001_front_gold.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "nombre": "Samsung Galaxy S6 Edge Plus",
+      "venta": true,
+      "precio": 155.00,
+      "foto": "Samsung_Galaxy_S6_Edge_Plus_B.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "nombre": "Volvo S60 Cross Country 2016 C01",
+      "venta": false,
+      "precio": 2155.00,
+      "foto": "Volvo_S60_Cross_Country_2016_C01.jpg",
+      "tags": [
+        "lifestyle",
+        "motor"
+      ]
+    },
+    {
+      "nombre": "Golf GTI 4C",
+      "venta": false,
+      "precio": 5455.00,
+      "foto": "golf.jpg",
+      "tags": [
+        "lifestyle",
+        "motor",
+        "work"
+      ]
+    }
+
+  ]
+}

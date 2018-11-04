@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="José Antonio Frías">
+      <meta name="description" content="Desarrollo Sitio Web Nodepop">
+    <title><%= titulo %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body></body>
+    <div>
+      <% getLocales().forEach(lang => { %>
+        <a href="/lang/<%= lang %>"><%= lang.toUpperCase() %></a> &nbsp;
+      <% }) %>  
+    </div>
+    <p class="milky"><%= __('Welcome to') %> <%= titulo %> !</p>
+    <p class="subencabezado"><%= __('List of products') %></p>
+    <p class="subtitulo"><%= __('Listing numAds',{ numAds: anuncios.length }) %></p>
+    <div style="overflow-x:auto;">
+        <table border="0">
+          <tr>
+            <td class="celda-imagen-cabecera"><%= __('Photograph') %></td>
+            <td class="celda-cabecera">Tags</td>
+            <td class="celda-cabecera"><%= __('Name') %></td>
+            <td class="celda-cabecera"><%= __('Sale') %></td>
+            <td class="celda-cabecera"><%= __('Price') %></td>
+          </tr> 
+          <% anuncios.forEach(function(anuncio) { %>
+            <tr>
+                <td class="celda-imagen-cuerpo"><img src="/images/anuncios/<%=anuncio.foto%>" alt="foto" class="responsive"></td>
+                <td class="celda-cuerpo"><%=anuncio.tags%></td>
+                <td class="celda-cuerpo"><%=anuncio.nombre%></td>
+                <td class="celda-cuerpo"><%=anuncio.venta%></td>
+                <td class="celda-cuerpo"><%=anuncio.precio%></td>
+              </tr>
+          <% }) %>
+        </table>
+      </div>
+  </body>
+</html>

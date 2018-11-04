@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="José Antonio Frías">
+      <meta name="description" content="Desarrollo Sitio Web Nodepop">
+    <title><%= titulo %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <style type="text/css">
+      @media only screen and (max-width: 480px){
+          #templateColumns{
+              width:100% !important;
+          }
+  
+          .templateColumnContainer{
+              display:block !important;
+              width:100% !important;
+          }
+  
+          .columnImage{
+              height:auto !important;
+              max-width:480px !important;
+              width:100% !important;
+          }
+  
+          .leftColumnContent{
+              font-size:16px !important;
+              line-height:125% !important;
+          }
+  
+          .rightColumnContent{
+              font-size:16px !important;
+              line-height:125% !important;
+          }
+      }
+
+        @media only screen and (max-width: 480px){
+        .templateColumnContainerB{
+            display:block !important;
+            width:100% !important;
+        }
+    }
+  </style>
+    
+  </head>
+  <body></body>
+    <p class="milky">¡ Bienvenidos a <%= titulo %> !</p>
+    <p class="subencabezado">Lista de productos</p>
+
+    <div style="overflow-x:auto;">
+        <table border="0">
+          <tr>
+            <td class="celda-imagen-cabecera">Fotografía</td>
+            <td class="celda-cabecera">Tags</td>
+            <td class="celda-cabecera">Nombre</td>
+            <td class="celda-cabecera">Venta</td>
+            <td class="celda-cabecera">Precio</td>
+          </tr> 
+          <% anuncios.forEach(function(anuncio) { %>
+            <tr>
+                <td class="celda-imagen-cuerpo"><img src="/images/anuncios/<%=anuncio.foto%>" alt="foto" class="responsive"></td>
+                <td class="celda-cuerpo"><%=anuncio.tags%></td>
+                <td class="celda-cuerpo"><%=anuncio.nombre%></td>
+                <td class="celda-cuerpo"><%=anuncio.venta%></td>
+                <td class="celda-cuerpo"><%=anuncio.precio%></td>
+              </tr>
+          <% }) %>
+        </table>
+      </div>
+
+ 
+   
+  </body>
+</html>

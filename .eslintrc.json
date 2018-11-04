@@ -1,0 +1,23 @@
+{   
+    "plugins": ["mocha"],
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "rules": {
+        "esnext": true,
+        "globals": {},
+        "globalstrict": true,
+        "quotmark": "single",
+        "undef": true,
+        "unused": true,
+        "no-console": "off",
+        "mocha/no-exclusive-tests": "error"
+    }
+}
